@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "PCB Ingressi"
+Date "2020-12-10"
+Rev "v1.0"
+Comp "Stakx"
 Comment1 ""
 Comment2 ""
 Comment3 ""
