@@ -6,9 +6,10 @@ Input PCB for high power speakers (30A capable) including:
 
 ## Connectors
 INPUT:
+
 [Neutrik NL4MP-M3](https://www.neutrik.com/en/product/nl4mp-m3)
 
 OUTPUT:
-[Faston](https://www.tme.eu/it/details/st-lk-4/terminali-a-saldare-pcb/xinya/xy256r-a-7-62-4pin/)
 
+[Faston](https://www.tme.eu/it/details/st-lk-4/terminali-a-saldare-pcb/xinya/xy256r-a-7-62-4pin/)
 [JST S4P-VH](https://www.digikey.it/product-detail/it/jst-sales-america-inc/S4P-VH-LF-SN/S4P-VH-LF-SN-ND/9924228)
