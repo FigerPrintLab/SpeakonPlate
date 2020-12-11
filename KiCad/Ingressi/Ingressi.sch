@@ -14,103 +14,103 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x04_Female J2
-U 1 1 5FD230A4
-P 6350 3650
-F 0 "J2" H 6378 3626 50  0000 L CNN
-F 1 "NL4MP-M3" H 6378 3535 50  0000 L CNN
-F 2 "" H 6350 3650 50  0001 C CNN
-F 3 "~" H 6350 3650 50  0001 C CNN
-	1    6350 3650
+L Connector:SpeakON_NL4 J1
+U 1 1 5FD43F0D
+P 4750 3650
+F 0 "J1" H 4750 4131 50  0000 C CNN
+F 1 "SpeakON_NL4" H 4750 4040 50  0000 C CNN
+F 2 "Connector Audio:Jack_speakON_Neutrik_NL4MP" H 4750 3650 50  0001 C CNN
+F 3 "http://www.neutrik.com/en/speakon/" H 4750 3650 50  0001 C CNN
+	1    4750 3650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4750 3350 5250 3350
+Wire Wire Line
+	4750 3950 5450 3950
+Wire Wire Line
+	6700 3650 6700 4200
+Wire Wire Line
+	6700 4200 6300 4200
+Wire Wire Line
+	4450 4200 4450 3650
+Wire Wire Line
+	5050 3650 5050 4450
+Wire Wire Line
+	5050 4450 5550 4450
+Wire Wire Line
+	7300 4450 7300 3650
+Wire Wire Line
+	5250 4750 5250 3350
+Connection ~ 5250 3350
+Wire Wire Line
+	5250 3350 6200 3350
+Wire Wire Line
+	5350 4750 5350 4200
+Connection ~ 5350 4200
+Wire Wire Line
+	5350 4200 4450 4200
+Wire Wire Line
+	6200 4750 6200 3350
+Connection ~ 6200 3350
+Wire Wire Line
+	6200 3350 7000 3350
+Wire Wire Line
+	6300 4750 6300 4200
+Connection ~ 6300 4200
+Wire Wire Line
+	6300 4200 5350 4200
+Wire Wire Line
+	5450 4750 5450 3950
+Connection ~ 5450 3950
+Wire Wire Line
+	5450 3950 6400 3950
+Wire Wire Line
+	5550 4750 5550 4450
+Connection ~ 5550 4450
+Wire Wire Line
+	5550 4450 6500 4450
+Wire Wire Line
+	6400 4750 6400 3950
+Connection ~ 6400 3950
+Wire Wire Line
+	6400 3950 7000 3950
+Wire Wire Line
+	6500 4750 6500 4450
+Connection ~ 6500 4450
+Wire Wire Line
+	6500 4450 7300 4450
 $Comp
-L Connector:Conn_01x04_Female J1
-U 1 1 5FD256AD
-P 4850 3650
-F 0 "J1" H 4950 3650 50  0000 C CNN
-F 1 "NL4MP-M3" H 5100 3550 50  0000 C CNN
-F 2 "" H 4850 3650 50  0001 C CNN
-F 3 "~" H 4850 3650 50  0001 C CNN
-	1    4850 3650
-	-1   0    0    -1  
+L Connector:SpeakON_NL4 J2
+U 1 1 5FD48C19
+P 7000 3650
+F 0 "J2" H 7000 4131 50  0000 C CNN
+F 1 "SpeakON_NL4" H 7000 4040 50  0000 C CNN
+F 2 "Connector Audio:Jack_speakON_Neutrik_NL4MP" H 7000 3650 50  0001 C CNN
+F 3 "http://www.neutrik.com/en/speakon/" H 7000 3650 50  0001 C CNN
+	1    7000 3650
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x04_Female J3
 U 1 1 5FD26AE9
-P 5250 4450
-F 0 "J3" V 5350 4350 50  0000 L CNN
-F 1 "Faston" V 5450 4250 50  0000 L CNN
-F 2 "" H 5250 4450 50  0001 C CNN
-F 3 "~" H 5250 4450 50  0001 C CNN
-	1    5250 4450
+P 5350 4950
+F 0 "J3" V 5200 5150 50  0000 L CNN
+F 1 "Phoenix MKDS" V 5300 5150 50  0000 L CNN
+F 2 "Connector Phoenix MSTB:PhoenixContact_MKDS_5_1x04_P6.35mm" H 5350 4950 50  0001 C CNN
+F 3 "~" H 5350 4950 50  0001 C CNN
+	1    5350 4950
 	0    -1   1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x04_Female J4
 U 1 1 5FD27467
-P 5750 4450
-F 0 "J4" V 5850 4450 50  0000 R CNN
-F 1 "XXXX" V 5950 4500 50  0000 R CNN
-F 2 "" H 5750 4450 50  0001 C CNN
-F 3 "~" H 5750 4450 50  0001 C CNN
-	1    5750 4450
+P 6300 4950
+F 0 "J4" V 6146 4662 50  0000 R CNN
+F 1 "JST_S4P-VH" V 6237 4662 50  0000 R CNN
+F 2 "Connector JST:JST_VH_S4P-VH_1x04_P3.96mm_Horizontal" H 6300 4950 50  0001 C CNN
+F 3 "~" H 6300 4950 50  0001 C CNN
+	1    6300 4950
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	5050 3550 5150 3550
-Wire Wire Line
-	5050 3650 5250 3650
-Wire Wire Line
-	5050 3750 5350 3750
-Wire Wire Line
-	5050 3850 5450 3850
-Wire Wire Line
-	5150 4250 5150 3550
-Connection ~ 5150 3550
-Wire Wire Line
-	5150 3550 5650 3550
-Wire Wire Line
-	5250 4250 5250 3650
-Connection ~ 5250 3650
-Wire Wire Line
-	5250 3650 5750 3650
-Wire Wire Line
-	5350 4250 5350 3750
-Connection ~ 5350 3750
-Wire Wire Line
-	5350 3750 5850 3750
-Wire Wire Line
-	5450 4250 5450 3850
-Connection ~ 5450 3850
-Wire Wire Line
-	5450 3850 5950 3850
-Wire Wire Line
-	5650 4250 5650 3550
-Connection ~ 5650 3550
-Wire Wire Line
-	5650 3550 6150 3550
-Wire Wire Line
-	5750 4250 5750 3650
-Connection ~ 5750 3650
-Wire Wire Line
-	5750 3650 6150 3650
-Wire Wire Line
-	5850 4250 5850 3750
-Connection ~ 5850 3750
-Wire Wire Line
-	5850 3750 6150 3750
-Wire Wire Line
-	5950 4250 5950 3850
-Connection ~ 5950 3850
-Wire Wire Line
-	5950 3850 6150 3850
-Text Label 5500 3550 0    50   ~ 0
-1+
-Text Label 5500 3650 0    50   ~ 0
-1-
-Text Label 5500 3750 0    50   ~ 0
-2+
-Text Label 5500 3850 0    50   ~ 0
-2-
 $EndSCHEMATC

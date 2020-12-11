@@ -1,4 +1,4 @@
-17111261763241204
+17114477153162204
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -7584,6 +7584,13 @@ Connector Audio
 Jack_speakON_Neutrik_NL4MD-V_Vertical
 speakON Chassis Connectors, 4 pole chassis connector, black D-size flange, countersunk thru holes, vertical PCB mount, https://www.neutrik.com/en/product/nl4md-v
 neutrik speakon
+0
+4
+4
+Connector Audio
+Jack_speakON_Neutrik_NL4MP
+
+
 0
 4
 4
@@ -24562,6 +24569,13 @@ phoenix_contact connector MC_01x12_GF_5.08mm_MH
 0
 12
 12
+Connector Phoenix MSTB
+PhoenixContact_MKDS_5_1x04_P6.35mm
+
+
+0
+4
+4
 Connector Phoenix MSTB
 PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal
 Generic Phoenix Contact connector footprint for: MSTBA_2,5/2-G-5,08; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1757242 12A || order number: 1923869 16A (HC)
