@@ -1,4 +1,4 @@
-# PCB Ingressi (Stakx)
+# Speakon plate (Stakx)
 Input PCB for high power speakers (30A capable) including:
 - 4 pole speakON parallel IN (x2)
 - 4 pole Phoenix connector OUT
