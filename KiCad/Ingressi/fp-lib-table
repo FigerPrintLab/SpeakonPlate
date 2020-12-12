@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "Stakx logo")(type KiCad)(uri C:/Users/Ralf/OneDrive/Documenti/Electronics/SpeakonPlate/KiCad/Ingressi)(options "")(descr ""))
+  (lib (name Test)(type KiCad)(uri ${KIPRJMOD}/test.pretty)(options "")(descr ""))
 )
