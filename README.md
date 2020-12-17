@@ -7,4 +7,4 @@ Input PCB for high power speakers (30A capable) including:
 ## Connectors
 [Neutrik NL4MP-M3](https://www.neutrik.com/en/product/nl4mp-m3) (30A RMS, 250V AC)  
 [Phoenix ZFKDSA 2,5-5,08- 4](https://www.phoenixcontact.com/online/portal/pi?uri=pxc-oc-itemdetail:pid=1714618&library=pien&tab=1) (24A 400V)  
-[JST B4PS-VH](https://www.conrad.it/p/jst-connettore-maschio-standard-vh-totale-poli-4-passo-396-mm-b4ps-vh-lfsn-1-pz-741207) (10A AC/DC, 250V AC/DC)  
+[JST B4PS-VH](http://www.jst-mfg.com/product/pdf/eng/eVH.pdf?5fdbd93841a69) (10A AC/DC, 250V AC/DC)  
