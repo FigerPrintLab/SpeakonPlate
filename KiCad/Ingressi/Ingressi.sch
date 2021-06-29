@@ -44,7 +44,7 @@ Wire Wire Line
 	5250 4750 5250 3350
 Connection ~ 5250 3350
 Wire Wire Line
-	5250 3350 6200 3350
+	5250 3350 5750 3350
 Wire Wire Line
 	5350 4750 5350 4200
 Connection ~ 5350 4200
@@ -59,17 +59,17 @@ Wire Wire Line
 	6300 4750 6300 4200
 Connection ~ 6300 4200
 Wire Wire Line
-	6300 4200 5350 4200
+	6300 4200 5850 4200
 Wire Wire Line
 	5450 4750 5450 3950
 Connection ~ 5450 3950
 Wire Wire Line
-	5450 3950 6400 3950
+	5450 3950 5950 3950
 Wire Wire Line
 	5550 4750 5550 4450
 Connection ~ 5550 4450
 Wire Wire Line
-	5550 4450 6500 4450
+	5550 4450 6050 4450
 Wire Wire Line
 	6400 4750 6400 3950
 Connection ~ 6400 3950
@@ -113,4 +113,35 @@ F 3 "~" H 6300 4950 50  0001 C CNN
 	1    6300 4950
 	0    -1   1    0   
 $EndComp
+$Comp
+L Connector:Conn_01x04_Female J5
+U 1 1 60DB1C95
+P 5850 4950
+F 0 "J5" V 5923 4880 50  0000 C CNN
+F 1 "Faston" V 6014 4880 50  0000 C CNN
+F 2 "Ingressi:Faston_01x04_P5.08mm_D5.08mm" H 5850 4950 50  0001 C CNN
+F 3 "~" H 5850 4950 50  0001 C CNN
+	1    5850 4950
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5750 4750 5750 3350
+Connection ~ 5750 3350
+Wire Wire Line
+	5750 3350 6200 3350
+Wire Wire Line
+	5850 4750 5850 4200
+Connection ~ 5850 4200
+Wire Wire Line
+	5850 4200 5350 4200
+Wire Wire Line
+	5950 4750 5950 3950
+Connection ~ 5950 3950
+Wire Wire Line
+	5950 3950 6400 3950
+Wire Wire Line
+	6050 4750 6050 4450
+Connection ~ 6050 4450
+Wire Wire Line
+	6050 4450 6500 4450
 $EndSCHEMATC
