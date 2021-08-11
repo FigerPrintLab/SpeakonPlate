@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Ingressi)(type KiCad)(uri ${KIPRJMOD}/Ingressi.pretty)(options "")(descr ""))
+  (lib (name SpeakON)(type KiCad)(uri ${KIPRJMOD}/SpeakON.pretty)(options "")(descr ""))
 )
